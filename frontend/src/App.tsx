@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <button className="join">Join Game</button>
+      <button className="join text-white bg-black" >Join Game</button>
     </>
   )
 }
