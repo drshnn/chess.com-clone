@@ -7,7 +7,7 @@ function Landing() {
             <img src={"/chess_board.png"} className="max-w-96 rounded-md" alt="chess board image" />
             <div className="flex flex-col items-center p-8 gap-10">
                 <h1 className="text-3xl text-white">Play Chess Online</h1>
-                <button className="w-full h-12 bg-blue-500 text-white rounded-md active:bg-blue-600" onClick={() => { navigate('/game') }}>Play Online</button>
+                <button className="w-full h-12 bg-blue-600 text-white rounded-md hover:bg-blue-500" onClick={() => { navigate('/game') }}>Play Online</button>
             </div>
         </div>
     )
