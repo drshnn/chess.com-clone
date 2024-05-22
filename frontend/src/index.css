@@ -12,3 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.flex-5{
+  flex:5
+}
+.flex-1{
+  flex:1
+}
